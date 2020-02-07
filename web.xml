@@ -1,0 +1,38 @@
+<web-app>
+<servlet>
+          <servlet-name>LoginServlet</servlet-name>
+		  <servlet-class>LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>LoginSevlet</servlet-name>
+	  <url-pattern>/LS1</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+          <servlet-name>AboutServlet</servlet-name>
+		  <servlet-class>AboutServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+      <servlet-name>AboutServlet</servlet-name>
+	  <url-pattern>/AS</url-pattern>
+
+</servlet-mapping>
+<servlet>
+          <servlet-name>LogoutServlet</servlet-name>
+		  <servlet-class>LogoutServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+      <servlet-name>LogoutServlet</servlet-name>
+	  <url-pattern>/LS2</url-pattern>
+
+</servlet-mapping>
+
+<welcome-file-list>
+<welcome-file>login.html</welcome-file>
+</welcome-file-list>
+
+
+</web-app>
